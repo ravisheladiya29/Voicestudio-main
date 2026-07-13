@@ -334,6 +334,11 @@ ENVIRONMENT=production
 SERVER_IP=$SERVER_IP
 PUBLIC_HOST=$PUBLIC_HOST_VALUE
 PUBLIC_BASE_URL=https://$PUBLIC_HOST_VALUE
+# Explicit public API URL for telephony webhooks (Vobiz/Twilio/etc.). Do not
+# leave this to Compose's localhost default — providers reject localhost answer_url.
+BACKEND_API_ENDPOINT=https://$PUBLIC_HOST_VALUE
+MINIO_PUBLIC_ENDPOINT=https://$PUBLIC_HOST_VALUE
+TURN_HOST=$PUBLIC_HOST_VALUE
 
 # TURN Server Configuration (time-limited credentials via TURN REST API)
 TURN_SECRET=$TURN_SECRET

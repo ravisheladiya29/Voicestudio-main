@@ -86,7 +86,10 @@ services:
       SERVER_IP: "${SERVER_IP:-}"
       PUBLIC_HOST: "${PUBLIC_HOST:-}"
       PUBLIC_BASE_URL: "${PUBLIC_BASE_URL:-}"
-      BACKEND_API_ENDPOINT: "${BACKEND_API_ENDPOINT:-http://localhost:8001}"
+      # Prefer explicit BACKEND_API_ENDPOINT; otherwise reuse PUBLIC_BASE_URL so
+      # remote installs don't silently fall back to localhost (breaks telephony
+      # webhooks like Vobiz answer_url). Local-only installs still default to :8001.
+      BACKEND_API_ENDPOINT: "${BACKEND_API_ENDPOINT:-${PUBLIC_BASE_URL:-http://localhost:8001}}"
       MINIO_PUBLIC_ENDPOINT: "${MINIO_PUBLIC_ENDPOINT:-http://localhost:9000}"
       TURN_HOST: "${TURN_HOST:-}"
       TURN_SECRET: "${TURN_SECRET:-}"
@@ -169,7 +172,10 @@ services:
       # embed links from. Defaults to PUBLIC_BASE_URL. When the value is non-public
       # (localhost or a private/reserved IP), the API resolves a running Cloudflare
       # tunnel's URL at runtime instead (see api/utils/common.py).
-      BACKEND_API_ENDPOINT: "${BACKEND_API_ENDPOINT:-http://localhost:8001}"
+      # Prefer explicit BACKEND_API_ENDPOINT; otherwise reuse PUBLIC_BASE_URL so
+      # remote installs don't silently fall back to localhost (breaks telephony
+      # webhooks like Vobiz answer_url). Local-only installs still default to :8001.
+      BACKEND_API_ENDPOINT: "${BACKEND_API_ENDPOINT:-${PUBLIC_BASE_URL:-http://localhost:8001}}"
 
       # Database configuration (using containerized postgres)
       DATABASE_URL: "postgresql+asyncpg://postgres:${POSTGRES_PASSWORD:-postgres}@postgres:5432/postgres"
