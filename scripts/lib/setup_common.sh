@@ -459,10 +459,49 @@ zenvoice_sync_postgres_password() {
     zenvoice_success "✓ Postgres password synced with .env"
 }
 
+# pipecat is a git submodule (see .gitmodules). A plain `git clone` without
+# `--recurse-submodules` leaves an empty pipecat/ directory, and Docker builds
+# then fail with: "neither pyproject.toml nor setup.py are present".
+# Ensure it is present before any --build remote install.
+zenvoice_ensure_pipecat() {
+    local project_dir=${1:-$(zenvoice_project_dir)}
+    local pipecat_dir="$project_dir/pipecat"
+    local pipecat_url="${PIPECAT_GIT_URL:-https://github.com/dograh-hq/pipecat.git}"
+
+    if [[ -f "$pipecat_dir/pyproject.toml" ]]; then
+        return 0
+    fi
+
+    command -v git >/dev/null 2>&1 \
+        || zenvoice_fail "git is required to fetch the pipecat dependency into $pipecat_dir"
+
+    zenvoice_info "pipecat is missing or empty — fetching $pipecat_url ..."
+
+    if [[ -d "$project_dir/.git" ]]; then
+        if ( cd "$project_dir" && git submodule update --init --recursive ); then
+            if [[ -f "$pipecat_dir/pyproject.toml" ]]; then
+                zenvoice_success "✓ pipecat submodule initialized"
+                return 0
+            fi
+        fi
+        zenvoice_warn "git submodule update did not populate pipecat; falling back to a shallow clone."
+    fi
+
+    rm -rf "$pipecat_dir"
+    git clone --depth 1 "$pipecat_url" "$pipecat_dir" \
+        || zenvoice_fail "Failed to clone pipecat from $pipecat_url into $pipecat_dir"
+
+    [[ -f "$pipecat_dir/pyproject.toml" ]] \
+        || zenvoice_fail "pipecat checkout is incomplete (no pyproject.toml in $pipecat_dir)."
+
+    zenvoice_success "✓ pipecat fetched into $pipecat_dir"
+}
+
 zenvoice_prepare_remote_install() {
     local project_dir=${1:-$(zenvoice_project_dir)}
     local env_file="$project_dir/.env"
 
+    zenvoice_ensure_pipecat "$project_dir"
     zenvoice_sync_remote_env_file "$env_file"
     zenvoice_require_init_compose_layout "$project_dir"
     zenvoice_preflight_remote_init_render "$project_dir"

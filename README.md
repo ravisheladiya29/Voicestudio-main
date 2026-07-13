@@ -70,6 +70,12 @@ An honest comparison on the axes that matter most to teams evaluating voice AI p
 ##### Download and setup Zenvoice on your Local Machine
 
 > **Note**
+> `pipecat` is a **git submodule**. Always clone with submodules, or run
+> `git submodule update --init --recursive` after clone. A plain clone leaves
+> `pipecat/` empty and Docker **build** mode will fail. Remote setup
+> (`remote_up.sh`) now auto-fetches pipecat if it is missing.
+
+> **Note**
 > We collect anonymous usage data to improve the product. You can opt out by setting `ENABLE_TELEMETRY=false` before running the startup script.
 
 > **Note**
