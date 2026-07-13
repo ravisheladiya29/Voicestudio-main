@@ -97,7 +97,10 @@ services:
       - ./certs:/certs:ro
       - nginx-generated:/generated/nginx
       - coturn-generated:/generated/coturn
+    # Invoke via bash so missing +x (common after Windows/git checkouts) does not
+    # fail with container exit 126 ("command invoked cannot execute").
     command:
+      - bash
       - /workspace/scripts/run_zenvoice_init.sh
 
   nginx:

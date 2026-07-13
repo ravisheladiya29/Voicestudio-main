@@ -1,0 +1,4 @@
+# Keep shell scripts LF so Linux containers can execute them (CRLF shebangs → exit 126).
+*.sh text eol=lf
+*.bash text eol=lf
+scripts/lib/*.sh text eol=lf
