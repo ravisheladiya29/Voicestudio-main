@@ -1,0 +1,2348 @@
+﻿{
+    "provider":  "elevenlabs",
+    "curation":  "option1_balanced_top50_female_male_by_usage_plus_premade",
+    "rules":  [
+                  "Pool: language=hi OR Indian/regional accents OR workspace",
+                  "Top 50 female by usage_character_count_1y (tie-break cloned_by_count)",
+                  "Top 50 male by usage_character_count_1y (tie-break cloned_by_count)",
+                  "Plus all workspace premade voices"
+              ],
+    "fetched_at":  "2026-07-11T17:55:43.2227837Z",
+    "curated_at":  "2026-07-11T18:12:15.4728646Z",
+    "source_count":  3968,
+    "count":  121,
+    "counts":  {
+                   "premade_included":  21,
+                   "unique_total":  121,
+                   "female_top50":  50,
+                   "male_top50":  50
+               },
+    "voices":  [
+                   {
+                       "voice_id":  "DQuoFsZ3oda1diTerwpq",
+                       "name":  "Aaditya - Calm and Conversational",
+                       "description":  "Aaditya K - Calm Conversational Hindi Voice - Aaditya Kapur is the pen name of an artist whose AI English voice has already been loved by many, with millions of characters generated using it. His confident, deep baritone voice brings your script to life with an engaging and energetic deliveryâperfect for adding liveliness and confidence to your message.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/DQuoFsZ3oda1diTerwpq/KGEyEn1Uvl1dnr4AggDh.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  57032,
+                       "usage_character_count_1y":  156426014,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "xMagNCpMgZ83QOEsHNre",
+                       "name":  "Aaditya - Calm, Soft and Soothing",
+                       "description":  "Aaditya K -  Calm Conversational Voice - A confident, deep baritone voice that brings your script to life with engaging and energetic delivery. Perfect for adding liveliness and confidence to your message.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/xMagNCpMgZ83QOEsHNre/yI9vXkproqDv7JIC5nRG.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  15431,
+                       "usage_character_count_1y":  643054062,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "MXGyTMlsvQgQ4BL0emIa",
+                       "name":  "Aakash Aryan - Conversational and Steady",
+                       "description":  "Aakash Aryan - Conversational English Voice - Aakash is the pen name of the voice over actor behind the most famous Indian AI voice. You would have definitely heard his voice. His energetic tone is ideal for an engaging social media presence, ads, and instructional videos.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/MXGyTMlsvQgQ4BL0emIa/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiVkpjOGZ3M1F0OXFWUFBUR2xYNWMubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  11326,
+                       "usage_character_count_1y":  263647919,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "pNInz6obpgDQGcFmaJgB",
+                       "name":  "Adam - Dominant, Firm",
+                       "description":  "A bright tenor pitch that immediately cuts through. The delivery is brash and openly confident, speaking with unwavering certainty and a slightly aggressive self-assurance.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/pNInz6obpgDQGcFmaJgB/d6905d7a-dd26-4187-bfff-1bd3a5ea7cac.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "mg9npuuaf8WJphS6E0Rt",
+                       "name":  "Aisha - Affectionate and Warm",
+                       "description":  "Aisha - Your Conversational Girlfriend - A friendly, empathetic voice designed to create meaningful, relationship-driven conversations.\n\nAishaâs warm and relatable tone makes her perfect for chatbots and AI agents focused on building emotional connections and offering companionship. Whether for virtual relationship support, emotional chats, or casual conversations. Ideal for platforms like chatbots, AI assistants, and virtual companions on WhatsApp, Facebook Messenger, Instagram",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/mg9npuuaf8WJphS6E0Rt/AtaRwshFD4w2ugoVPZGu.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  39396,
+                       "usage_character_count_1y":  175176909,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Xb7hH8MSUJpSbSDYk0k2",
+                       "name":  "Alice - Clear, Engaging Educator",
+                       "description":  "Clear and engaging, friendly woman with a British accent suitable for e-learning.",
+                       "accent":  "british",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/Xb7hH8MSUJpSbSDYk0k2/d10f7534-11f6-41fe-a012-2de1e482d336.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ftDdhfYtmfGP0tFlBYA1",
+                       "name":  "Alisha - Soft and Engaging",
+                       "description":  "Alisha - Soft and Engaging - A gentle, soothing voice made for calm conversations, user interactions, and emotional storytelling.\n\nAlisha\u0027s voice is calm and gentleâlike a typical Indian woman\u0027s voice. Try listening to itâyou\u0027ll enjoy how relaxing and easy to talk to it sounds. Perfect for chatbots, virtual companions, social media reels, and podcasts, her tone brings comfort and authenticity. Works beautifully on platforms like YouTube, Replika, Spotify, and conversational AI tools.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/ftDdhfYtmfGP0tFlBYA1/ij5PfYlZZeiriPm7LHrO.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  23800,
+                       "usage_character_count_1y":  1360735140,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "BTNeCNdXniCSbjEac5vd",
+                       "name":  "Amit Gupta - Explosive and Youthful",
+                       "description":  "Amit Gupta - High-Energy Social Media Voice for Reels \u0026 Shorts - An energetic and impactful voice, crafted for viral short-form content.\n\nWith a bold, expressive tone and fast-paced delivery, heâs the perfect match for creators and brands aiming to hook audiences within seconds.\n\nAmit is one of the top-performing voices on ElevenLabs, with over 500 million characters created across his profiles. This voice is ideal for Instagram Reels, YouTube Shorts, Moj, Josh, and other short video platforms looking for a high-energy Hindi presence.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/BTNeCNdXniCSbjEac5vd/nFro7Rw5U5Lykzo89Trp.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  120854,
+                       "usage_character_count_1y":  161073531,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "WuePGPKIAIKI8COZpzce",
+                       "name":  "Amit Gupta - Upbeat, Clear and Helpful",
+                       "description":  "Amit Gupta - Energetic Customer Care Voice - A bright and responsive Hindi voice designed for fast, efficient customer support.\n\nAmit Guptaâs upbeat and clear delivery makes him perfect for high-traffic service environments like IVR systems, app-based support, and ecommerce platforms. Whether assisting with queries or guiding users through transactions, his tone stays sharp, helpful, and human. A famous Hindi voice on ElevenLabs, Amitâs other profiles have built strong traction across industries. ",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/WuePGPKIAIKI8COZpzce/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiUU9oaEY3aVFzNVJ1VVd3cW5wTDQubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  30749,
+                       "usage_character_count_1y":  268040024,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Sxk6njaoa7XLsAFT7WcN",
+                       "name":  "Amit Gupta - Warm and Sympathetic",
+                       "description":  "Amit Gupta - A young Indian male with a naturally warm and young base voice, perfect for Hindi narration and storytelling. Perfect for storytelling, and ideal for audiobooks, advertisements, documentaries, social media and conversational content.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/user/gnN7qIIcZadE0iUy21FVP3UGUv33/voices/Sxk6njaoa7XLsAFT7WcN/5uu3yfORy02vYtoDIDjN.mp3",
+                       "public_owner_id":  "39fcd264fcac3d28a06e753f015de652af5d8be5fbb2e2bc00fef8f6eccaeea2",
+                       "featured":  false,
+                       "cloned_by_count":  272164,
+                       "usage_character_count_1y":  338275743,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "1tyCkDKmBd1gCvRcimhT",
+                       "name":  "Amitabh - High Pitched and Overexcited",
+                       "description":  "Amitabh - Casual, warm and relaxed speaking in a clear and natural manner. Perfect for Conversational AI, IVR, Phone, Commercials, Phone Social Medias, Adverts, Audiobooks, Narration, Indian, Hindi, Bass, Performance Variation.",
+                       "accent":  "gujarati",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/user/sHmteLPQE2QfGRZzUZUJ2sjddRc2/voices/1tyCkDKmBd1gCvRcimhT/Tq5UTkEhUSLV8rm4BU4L.mp3",
+                       "public_owner_id":  "ad827f2c0300d36094ca79e518b1a5df8c3609eb269353c30dcec3ac8878a437",
+                       "featured":  false,
+                       "cloned_by_count":  68267,
+                       "usage_character_count_1y":  198220138,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi",
+                                       "accent:gujarati"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "1qZOLVpd1TVic43MSkFY",
+                       "name":  "Amritanshu - Seasoned Professor",
+                       "description":  "Amritanshu Professional voice - An Indian Middle aged Male voice. Great for Informative \u0026 educational contents.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  null,
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/xHIC6jrDDCf3yuKgr8qEpupZqbJ2/voices/1qZOLVpd1TVic43MSkFY/669e3101-a16b-4329-8047-b0e2cf36348d.mp3",
+                       "public_owner_id":  "52d62b49a52789b96cf01345568dfaf04610eed250f562d9092848951f72a7f0",
+                       "featured":  false,
+                       "cloned_by_count":  8193,
+                       "usage_character_count_1y":  191629166,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Sm1seazb4gs7RSlUVw7c",
+                       "name":  "Anika - Animated, Friendly and Engaging",
+                       "description":  "Anika - Animated and Friendly - Anika is a trusted friend - expressive, clear, and effortlessly engaging. Perfect for animated storytelling or tutorials, it brings an optimistic, authentic tone that connects with young listeners and makes every word resonate. Ideal for projects that need an empathetic, friendly touch.\r\n",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/Sm1seazb4gs7RSlUVw7c/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoidW9wRkQzaldSekV4Wnl1NFE0enQubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  217215,
+                       "usage_character_count_1y":  330575618,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "jUjRbhZWoMK4aDciW36V",
+                       "name":  "Anika - Clear, Warm and Professional",
+                       "description":  "Anika - Insurance Customer Care Agent for Renewals \u0026 Support - Anika delivers a clear, warm, and professional tone tailored for the insurance sectorâperfect for claim updates and premium payment reminders. \n\nWith over 5 billion characters generated across her ElevenLabs profiles, Anika is one of the platformâs most recognizable and effective customer care voices. This insurance-focused profile is ideal for use in Insurance and Fintech platforms.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/jUjRbhZWoMK4aDciW36V/eDJlc3Nc0xFkzigTAMax.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  105155,
+                       "usage_character_count_1y":  177634579,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "90ipbRoKi4CpHXvKVtl0",
+                       "name":  "Anika - Customer Care Agent",
+                       "description":  "Anika - Customer Care Agent - Anika\u0027s voice is specially recorded with customer care scripts in mind. So, if you are looking for an AI customer care voice or any conversational use, this voice is the perfect fit for you. Give it a try, and your users won\u0027t even realize it\u0027s AI!",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/90ipbRoKi4CpHXvKVtl0/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiUkhqdjRQelE4cFRndVVrMWRjTzUubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  46010,
+                       "usage_character_count_1y":  5394586856,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "broqrJkktxd1CclKTudW",
+                       "name":  "Anika - Informative and Professional",
+                       "description":  "Anika - Hindi Customer Care Agent - Hindi version of one of ElevenLabsâ most-used customer care voices.\n\nAnikaâs English version is already the go-to for customer care, product support bots, and enterprise helpdesksâand now her Hindi tone brings the same clarity, warmth, and professionalism to regional audiences. Designed for telecoms, banks, e-commerce, healthcare, and any high-volume support system, she delivers service scripts with precision and calm authority.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/broqrJkktxd1CclKTudW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoidG51cWtVUDlBYlBkaGNINDRSUFkubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  22698,
+                       "usage_character_count_1y":  732175448,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ecp3DWciuUyW7BYM7II1",
+                       "name":  "Anika - Sweet and Lively",
+                       "description":  "Anika - Sweet \u0026 Lively Social Media Voice - A fun, expressive voice for social media content, reels, and upbeat storytelling.\r\n\r\nAnikaâs voice is sweet, energetic, and instantly engagingâperfect for hooks, trends, and light-hearted narratives. Her cheerful tone and quick delivery make her ideal for platforms like Instagram Reels, YouTube Shorts, TikTok, and branded content. With natural charm and a bubbly personality, Anika brings a fresh and relatable vibe to any post. Perfect for creators looking to boost engagement.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/ecp3DWciuUyW7BYM7II1/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiR1JDc2hlTVpMajdaV3QwZXloYVcubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  196873,
+                       "usage_character_count_1y":  184515810,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "RABOvaPec1ymXz02oDQi",
+                       "name":  "Anika - Sweet, Lively and Warm",
+                       "description":  "Anika â Sweet \u0026 Lively Hindi Social Media Voice - Voice crafted for engaging Hindi social media content, brand messaging, and influencer communication.\n\nAnikaâs sweet and lively tone brings energy and warmth to every interaction in Hindi, making her perfect for platforms like Instagram, TikTok, YouTube, and podcasts. Her engaging delivery makes brand promotions, product launches, and casual chats feel fresh and fun. Trusted for her authentic and energetic style, Anika connects with audiences in Hindi. ",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/RABOvaPec1ymXz02oDQi/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiZFpQNjNKS1dvM0h5OTBYeW1SdEEubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  246079,
+                       "usage_character_count_1y":  300146398,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "gHu9GtaHOXcSqFTK06ux",
+                       "name":  "Anjali - Warm, Cheerful and Clear",
+                       "description":  "Anjali - Soothing Hindi Voice - Anjali\u0027s soothing voice is perfect for creating calming and engaging content. You can use it for audiobooks, podcasts, meditation apps, or any project that needs a friendly and reassuring tone.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/gHu9GtaHOXcSqFTK06ux/pI2RQaKcueXaen7zO23a.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  162580,
+                       "usage_character_count_1y":  3091416066,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "0ZOhGcBopt9S6GBK8tnj",
+                       "name":  "Ayesha - Energetic and Charismatic",
+                       "description":  "Ayesha - Energetic Indian Voice - Ayesha is the pen name of a very famous and talented voice over artist and singer. Her voice is well-suited for conversational-style ads, podcasts, narrations, e-learning, engaging content, etc. Do give it a try and you will love it.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/0ZOhGcBopt9S6GBK8tnj/3jFBeFqGejJiguT6HapO.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  22836,
+                       "usage_character_count_1y":  200678120,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "hpp4J3VqNfWAUOO0d1Us",
+                       "name":  "Bella - Professional, Bright, Warm",
+                       "description":  "This voice is warm, bright, and professional, characterized by a Standard American accent and a polished, narrative quality. It features a medium-high pitch with crisp diction and a deliberate, rhythmic pace that makes it highly intelligible and engaging for long-form listening.",
+                       "accent":  "american",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/hpp4J3VqNfWAUOO0d1Us/dab0f5ba-3aa4-48a8-9fad-f138fea1126d.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "pqHfZKP75CvOlQylNhV4",
+                       "name":  "Bill - Wise, Mature, Balanced",
+                       "description":  "Friendly and comforting voice ready to narrate your stories.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "old",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/pqHfZKP75CvOlQylNhV4/d782b3ff-84ba-4029-848c-acf01285524d.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "nPczCjzI2devNBz1zQrb",
+                       "name":  "Brian - Deep, Resonant and Comforting",
+                       "description":  "Middle-aged man with a resonant and comforting tone. Great for narrations and advertisements.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/nPczCjzI2devNBz1zQrb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIyZGQzZTcyYy00ZmQzLTQyZjEtOTNlYS1hYmM1ZDRlNWFhMWQubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "nwj0s2LU9bDWRKND5yzA",
+                       "name":  "Bunty - Energetic, Expressive and Fun",
+                       "description":  "Bunty - Energetic, Expressive \u0026 Fun Social Media Voice - A vibrant AI voice crafted for content creators, influencers, and digital storytellers.\n\nBuntyâs natural, expressive tone makes videos feel relatable and compelling, perfect for YouTube shorts, Instagram reels, and TikTok trends. His engaging style enhances storytelling, promotions, and entertainment content, keeping audiences hooked. Designed for creators looking to boost engagement and authenticity in Indian English content, Bunty delivers a smooth and dynamic performance.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/nwj0s2LU9bDWRKND5yzA/zgIoGFciMrEwp6IA6uKe.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  159850,
+                       "usage_character_count_1y":  168250060,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "7b9mYhmnp0y2qSH1FnBL",
+                       "name":  "Bunty - Funny Best Friend",
+                       "description":  "Buntyâs voice is full of charm, wit, and best-friend energyâideal for funny reels, roast-style rants, relatable meme content, and banter-led storytelling. With a naturally desi tone and perfect comic timing, his voice feels like your everyday buddy pulling your leg, making it perfect for creators, meme pages, and short-form comedy content on social media platforms.\n",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/7b9mYhmnp0y2qSH1FnBL/zGkeBgS3uFAb0X28XrcH.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  437606,
+                       "usage_character_count_1y":  453288446,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "FZkK3TvQ0pjyDmT8fzIW",
+                       "name":  "Bunty - Punchy, Crisp and Reel King",
+                       "description":  "Bunty â Reel Perfect Voice - A vibrant AI voice crafted for content creators, influencers, and digital storytellers.\r\n\r\nBuntyâs natural, expressive tone makes videos feel relatable and compelling, perfect for YouTube shorts, Instagram reels, and TikTok trends. His engaging style enhances storytelling, promotions, and entertainment content, keeping audiences hooked. Designed for creators looking to boost engagement and authenticity in Hindi-language content, Bunty delivers a smooth and dynamic performance.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/FZkK3TvQ0pjyDmT8fzIW/opgBS6JEyrQnlsYlwCAj.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  1129771,
+                       "usage_character_count_1y":  2503712549,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "7qBNUtXRGP0jPi0H4r8k",
+                       "name":  "Bunty â Friendly \u0026 Fun Customer Agent",
+                       "description":  "Bunty delivers an energetic, youthful, and friendly delivery that feels approachable and upbeat during e-commerce interactions. His tone keeps conversations light, helpful, and efficient. Ideal for order support, delivery updates, return and refund queries, onboarding calls, and customer assistance. Well-suited for e-commerce platforms, D2C brands, online marketplaces, and shopping apps that want customer support to feel fast, friendly, and relatable.\n",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/7qBNUtXRGP0jPi0H4r8k/ZmNIUqV8v4kiFI6kuuWt.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  324387,
+                       "usage_character_count_1y":  402637203,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ibbx9zDYGvLgtYzRbqqG",
+                       "name":  "Bunty â Smart Friendly Assistant",
+                       "description":  "Bunty brings a friendly, fun, and relatable tone that makes interactions feel natural and stress-free. His clear and confident hinglish delivery helps users stay informed without sounding robotic or overly formal. Designed for cases like task reminders, daily updates, scheduling help, basic queries, and conversational assistance. A strong fit for AI assistants, productivity tools, and voice-enabled apps and custom AI assistant experiences.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/ibbx9zDYGvLgtYzRbqqG/G40E8kG3JVo3ZBDgSpAy.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  158114,
+                       "usage_character_count_1y":  159707574,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "N2lVS1w4EtoT3dr4eOWO",
+                       "name":  "Callum - Husky Trickster",
+                       "description":  "Deceptively gravelly, yet unsettling edge.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "IKne3meq5aSn9XLyUdCD",
+                       "name":  "Charlie - Deep, Confident, Energetic",
+                       "description":  "A young Australian male with a confident and energetic voice.",
+                       "accent":  "australian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/IKne3meq5aSn9XLyUdCD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIxMDJkZTZmMi0yMmVkLTQzZTAtYTFmMS0xMTFmYTc1YzU0ODEubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "xnx6sPTtvU635ocDt2j7",
+                       "name":  "Chinmay â Raw Call Center Voice",
+                       "description":  "Chinmay delivers a humble, real, and naturally conversational tone that feels like speaking with an authentic customer care representative. His grounded delivery avoids overly polished scripting, making interactions sound genuine and relatable. Ideal for customer support calls, service assistance, onboarding guidance, helpdesk communication, and AI-powered calling agents designed to feel human and approachable. Works especially well for customer care environments serving everyday consumers where trust and relatability matter.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/xnx6sPTtvU635ocDt2j7/XhNsS02jtiENHaSGAs6d.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  23640,
+                       "usage_character_count_1y":  379588978,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "iP95p4xoKVk53GoZ742B",
+                       "name":  "Chris - Charming, Down-to-Earth",
+                       "description":  "Natural and real, this down-to-earth voice is great across many use-cases.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/iP95p4xoKVk53GoZ742B/3f4bde72-cc48-40dd-829f-57fbf906f4d7.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "onwK4e9ZLuTAKqWW03F9",
+                       "name":  "Daniel - Steady Broadcaster",
+                       "description":  "A strong voice perfect for delivering a professional broadcast or news story.",
+                       "accent":  "british",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/onwK4e9ZLuTAKqWW03F9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI3ZWVlMDIzNi0xYTcyLTRiODYtYjMwMy01ZGNhZGMwMDdiYTkubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "MF4J4IDTRo0AxOO4dpFR",
+                       "name":  "Devi - Encouraging and Motivating",
+                       "description":  "Devi - Clear Hindi pronunciation - Devi is the pen name of a young Indian female artist with clear Hindi instructions. She originally comes from Rajasthan, so she has a clear Hindi diction and hence a beautiful voice for educational, social media, and audiobook content.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/MF4J4IDTRo0AxOO4dpFR/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiSXpSTkhGUU1hNUw3NW4zMzNHd0subXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  894871,
+                       "usage_character_count_1y":  335136124,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "cjVigY5qzO86Huf0OWal",
+                       "name":  "Eric - Smooth, Trustworthy",
+                       "description":  "A smooth tenor pitch from a man in his 40s - perfect for agentic use cases.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/cjVigY5qzO86Huf0OWal/d098fda0-6456-4030-b3d8-63aa048c9070.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "JBFqnCBsd6RMkjVDRZzb",
+                       "name":  "George - Warm, Captivating Storyteller",
+                       "description":  "Warm resonance that instantly captivates listeners.",
+                       "accent":  "british",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/JBFqnCBsd6RMkjVDRZzb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiJlNjIwNmQxYS0wNzIxLTQ3ODctYWFmYi0wNmE2ZTcwNWNhYzUubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "SOYHLrjzK2X1ezoPC6cr",
+                       "name":  "Harry - Fierce Warrior",
+                       "description":  "An animated warrior ready to charge forward.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/SOYHLrjzK2X1ezoPC6cr/86d178f6-f4b6-4e0e-85be-3de19f490794.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "BZ7QSotEmGyFMP8nbbhC",
+                       "name":  "Jackie Shaw - Energetic and Friendly",
+                       "description":  "Jackie Shaw  - Energetic \u0026 Friendly - This voice has neutral Indian accent is perfect for social media, YouTube videos, e-learning, corporate explainers, and ads. It offers a bright and friendly tone that enhances engagement across various platforms.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/BZ7QSotEmGyFMP8nbbhC/ObPLlHaDjmYQgLopnVT6.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  6750,
+                       "usage_character_count_1y":  156619300,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "mCQMfsqGDT6IDkEKR20a",
+                       "name":  "Jeevan - Expressive and Confident",
+                       "description":  "Jeevan - Expressive Indian Voice - Jeevan is the pen name of a prominent Indian voice artist. His voice is very mature and can be used for audiobooks, social media, and documentaries. Do give it a try and you will love his voice. ",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/custom/voices/mCQMfsqGDT6IDkEKR20a/Z3YH3sZIOA9jZGAoAENq.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  37779,
+                       "usage_character_count_1y":  317399731,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "cgSgspJ2msm6clMCkdW9",
+                       "name":  "Jessica - Playful, Bright, Warm",
+                       "description":  "Young and popular, this playful American female voice is perfect for trendy content.",
+                       "accent":  "american",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/cgSgspJ2msm6clMCkdW9/56a97bf8-b69b-448f-846c-c3a11683d45a.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "H6QPv2pQZDcGqLwDTIJQ",
+                       "name":  "Kanika - Soft, Smooth and Muffled",
+                       "description":  "Kanika - Relatable Hindi Voice - Kanika is the pen name of one of the best voice-over artists you will ever hear. Everyone who regularly consumes content has definitely heard her voice. Give this voice a try, and you will find it very professional and soothing. It\u0027s the perfect voice to use for social media, ads, bots, and audiobooks.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/H6QPv2pQZDcGqLwDTIJQ/6ovAmNlfLMVYet2KDtSN.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  387204,
+                       "usage_character_count_1y":  886791294,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Ek86tj0PS0XTYchY9Ody",
+                       "name":  "Keshavi - Clear \u0026 Human AI Assistant",
+                       "description":  "Natural, professional, and refreshingly human â Keshavi brings a clarity and warmth to AI assistance that makes every interaction feel genuinely conversational rather than automated. Her composed, natural delivery handles queries with precision while never losing its human touch. Built for virtual assistants, voice bots, IVR systems, and conversational AI deployments. Ideal for SaaS platforms, healthcare apps, fintech products, and enterprise tools building AI-powered voice experiences.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/Ek86tj0PS0XTYchY9Ody/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiSkY3eDdMUWxDTWtXVkF4aFFJcXYubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  6470,
+                       "usage_character_count_1y":  335339342,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "m5qndnI7u4OAdXhH0Mr5",
+                       "name":  "Krishna - Energetic and Expressive",
+                       "description":  "Krishna - Energetic Hindi Voice - Krishna is the pen name of a very talented actor, director, and casting director. Because of his experience both on and off screen, he has a 360-degree view of how a voice should be. You will notice that range and professionalism in his voice. Do give it a try.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/m5qndnI7u4OAdXhH0Mr5/3GqgqOGjRsluDRmsRcR7.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  232326,
+                       "usage_character_count_1y":  337630450,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Qxb5zQvEo3DYQK2HNnXm",
+                       "name":  "Kunal Agarwal - Clear and Encouraging",
+                       "description":  "Kunal Agarwal - Confident mature Indian male voice for Audiobooks, podcasts, documentary, advertising and more.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/Csg2QCVf8Wd0U0PpOHVasR3RoAf2/voices/Qxb5zQvEo3DYQK2HNnXm/a2766a6d-86af-4eb1-9e90-a2a469b30f1e.mp3",
+                       "public_owner_id":  "7d0196e485c156f73c827d9603f0e2bdee55d42c9283f708b7f6348469da1b4f",
+                       "featured":  false,
+                       "cloned_by_count":  71991,
+                       "usage_character_count_1y":  177640562,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "X0Kc6dUd5Kws5uwEyOnL",
+                       "name":  "Laksh - Soft and Emotional",
+                       "description":  "Laksh - Young, Soft \u0026 Emotional - Laksh is a young talented actor and voice artist. His voice is soft-spoken, emotional, and perfect for storytelling, Hindi audiobooks, emotional advertisements, and character-driven roles in animation or film dubbing.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/X0Kc6dUd5Kws5uwEyOnL/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiTXB4cWhOQ0VIcEZDbUZZRzQ3ZHAubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  139967,
+                       "usage_character_count_1y":  178831221,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "FGY2WhTYpPnrIDTdsKH5",
+                       "name":  "Laura - Enthusiast, Quirky Attitude",
+                       "description":  "This young adult female voice delivers sunny enthusiasm with a quirky attitude.",
+                       "accent":  "american",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/FGY2WhTYpPnrIDTdsKH5/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI2NzM0MTc1OS1hZDA4LTQxYTUtYmU2ZS1kZTEyZmU0NDg2MTgubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "TX3LPaxmHKxFdv7VOQHJ",
+                       "name":  "Liam - Energetic, Social Media Creator",
+                       "description":  "A young adult with energy and warmth - suitable for reels and shorts.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/TX3LPaxmHKxFdv7VOQHJ/63148076-6363-42db-aea8-31424308b92c.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "pFZP5JQG7iQjIQuC4Bku",
+                       "name":  "Lily - Velvety Actress",
+                       "description":  "Velvety British female voice delivers news and narrations with warmth and clarity.",
+                       "accent":  "british",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/pFZP5JQG7iQjIQuC4Bku/89b68b35-b3dd-4348-a84a-a3c13a3c2b30.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "6MoEUz34rbRrmmyxgRm4",
+                       "name":  "Manav - Charming, Husky and Warm",
+                       "description":  "Manav - Charming, Husky Indian Male Voice - A rich, husky voice with effortless charmâperfect for engaging narrations, voice assistants, and romantic storytelling.\n\nManavâs tone is smooth yet grounded, ideal for dating apps, audiobooks, interactive AI agents, and brand campaigns looking for a confident Indian male voice with emotional depth. Great fit for platforms like Spotify, Audible, YouTube, and chatbot-driven content that requires charisma and relatability.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/6MoEUz34rbRrmmyxgRm4/5w9P2v3qYQRTPpfIFQm0.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  150316,
+                       "usage_character_count_1y":  184339238,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "P5Y7cJhVoUoFVrXgyLyN",
+                       "name":  "Manu - Raw , Unfiltered, Candid",
+                       "description":  "The voice is fragile and artless, full of the staccato hesitations of someone speaking their truth for the first time. A faltering, unvarnished monologue that feels captured rather than recorded.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/e88109a6fafc4ba2a0d7dccd0811f898/voices/P5Y7cJhVoUoFVrXgyLyN/bcf9d44c-34b2-43b3-a585-8c153c4f4626.mp3",
+                       "public_owner_id":  "6dae3346e1c1adda1a567d191e65d0eab3a577d26ea92ab28df858c570747e04",
+                       "featured":  false,
+                       "cloned_by_count":  276,
+                       "usage_character_count_1y":  899689130,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "XrExE9yKIg1WjnnlVkGX",
+                       "name":  "Matilda - Knowledgable, Professional",
+                       "description":  "A professional woman with a pleasing alto pitch. Suitable for many use cases.",
+                       "accent":  "american",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/XrExE9yKIg1WjnnlVkGX/b930e18d-6b4d-466e-bab2-0ae97c6d8535.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "4O1sYUnmtThcBoSBrri7",
+                       "name":  "Maya  - Friendly and Cheerful",
+                       "description":  "Maya J - Friendly and Cheerful Voice - Maya is the pen name of a cheerful and energetic artist who has lived in many countries. Her experiences across these places bring a wide variety of emotions to her performances. She has an excellent voice suited for social media, AI chatbots, audiobooks, and more.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/4O1sYUnmtThcBoSBrri7/H62OViSeqwMim7rCIDvv.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  39172,
+                       "usage_character_count_1y":  213345751,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "1qEiC6qsybMkmnNdVMbK",
+                       "name":  "Monika Sogam - Calm and Natural",
+                       "description":  "Monika Sogam - Hindi Modulated - Monika Sogam is already a pretty loved voice on ElevenLabs in the English Indian category. Now it is available in Hindi too. This is a perfect voice for social media, audiobooks, and any type of conversational audio you might be looking for.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/1qEiC6qsybMkmnNdVMbK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiM0FWQVFCWHUwdllzSXJnRGM2RmEubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  1124836,
+                       "usage_character_count_1y":  1415243233,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "2zRM7PkgwBPiau2jvVXc",
+                       "name":  "Monika Sogam - Deep and Natural",
+                       "description":  "Monika Sogam - Indian English accent voice for social media videos and audiobooks",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/2zRM7PkgwBPiau2jvVXc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiTmNFT1E5YXdUWnZnd1VvcXRtVTkubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  263638,
+                       "usage_character_count_1y":  4013723170,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "2bNrEsM0omyhLiEyOwqY",
+                       "name":  "Monika Sogam - Friendly and Reassuring",
+                       "description":  "Monika Sogam - Friendly Customer Care Agent - A warm and approachable voice designed for exceptional customer service.\n\nMonika Sogamâs friendly tone ensures a positive, efficient customer experience. With over 1.5 billion characters processed across her other voice profiles on ElevenLabs, her voice is proven reliable for clear, empathetic communication. Ideal for AI agents, chatbots, and virtual assistants, Monika offers consistent, high-quality support on mobile apps, websites, and customer service platforms.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/2bNrEsM0omyhLiEyOwqY/d3Od6XtjK1LK0t3FIIxN.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  25851,
+                       "usage_character_count_1y":  2431948012,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "EaBs7G1VibMrNAuz2Na7",
+                       "name":  "Monika Sogam - Natural Conversations",
+                       "description":  "Monika Sogam - Natural Conversations - Monika Sogam\u0027s English narration and Hindi voice have already been loved by the audience on ElevenLabs (with more than 200 million characters generated). Since we\u0027ve seen many people using her voice for conversational use cases, we\u0027ve brought her back to record a dataset specifically for this purpose, so her AI clone can perform even better. Please feel free to use her voice if you want to listen to an audio story or for a conversational bot or engaging social media content.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/EaBs7G1VibMrNAuz2Na7/PFvuYioNtADsGVRLtgiE.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  28259,
+                       "usage_character_count_1y":  823070725,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ZUrEGyu8GFMwnHbvLhv2",
+                       "name":  "Monika Sogam - Reliable and Efficient",
+                       "description":  "Monika Sogam - Professional Customer Care Agent - A clear, professional AI voice designed specifically for exceptional customer support and service.\n\nMonikaâs warm, articulate tone makes her the ideal choice for handling customer inquiries, providing assistance, and resolving issues efficiently. With a voice that instills confidence and trust, she is perfect for IVR systems, chatbots, and virtual assistants. Monika\u0027s other voice profiles on ElevenLabs have already crossed over 1 billion characters, making her voice highly reliable and versatile across multiple platforms.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/ZUrEGyu8GFMwnHbvLhv2/BnX4hQ0sCzHZblR3Y1Kd.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  28324,
+                       "usage_character_count_1y":  358312835,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "kvQSb3naDTi3sgHwwBC1",
+                       "name":  "Monika Sogam â Deep and Clear",
+                       "description":  " Monika Sogam â Smooth, Playful \u0026 Sexy Hindi Content Voice - Monika Sogam delivers a voice thatâs effortlessly smooth, flirtatious, and confidently bold. \n\nHer delivery strikes the right balance between sensual, playful, and expressive, making it an ideal fit for romantic stories, late-night talk content, character-driven voiceovers.\n\nWith over 3 billion characters generated across her profiles on ElevenLabs, Monika stands as one of the most successful Hindi voices on the platform. ",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/kvQSb3naDTi3sgHwwBC1/fVhpjaf9zKYWdXooFcRU.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  101556,
+                       "usage_character_count_1y":  304107407,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "xoV6iGVuOGYHLWjXhVC7",
+                       "name":  "Muskaan - Friendly, Calm and Inviting",
+                       "description":  "Muskaan - Casual Hindi Voice - Muskaan is the pen name of a very experienced financial trainer in India. Her voice is very natural and feels relatable, unlike the corporate tone that often feels disconnected. This voice will be very good for use cases like social media, conversational contexts, and e-learning content.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/xoV6iGVuOGYHLWjXhVC7/aLdrxvY6ET3bmUkjhzcA.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  208178,
+                       "usage_character_count_1y":  199893764,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "6BZyx2XekeeXOkTVn8un",
+                       "name":  "Naina - Sophisticated and Youthful",
+                       "description":  "Naina - Sophisticated Indian Girl - Naina is the pen name of every creative female artist who is not only a talented voice-over artist with a great voice but also an accomplished architect. She has a knack for doing things creatively and with sophistication, and you can hear that in her voice as well. Give her voice a try, and you\u0027ll love having a conversation with her.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/6BZyx2XekeeXOkTVn8un/6BF9EZzX1qP0r3PcsXhX.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  15252,
+                       "usage_character_count_1y":  170127514,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "7w5JDCUNbeKrn4ySFgfu",
+                       "name":  "Nikita - Calm, Smooth and Diplomatic",
+                       "description":  "Nikita - Young \u0026 Energetic Customer Care Agent - A lively and enthusiastic voice built for modern, fast-paced customer support.\n\nNikitaâs bright, youthful tone is ideal for handling queries across apps, websites, and service platforms. Whether itâs guiding users, offering solutions, or keeping the energy high in conversations, she ensures a smooth and upbeat customer experience. Perfect for fintech apps, ecommerce platforms, AI Agents, delivery services, and mobile support bots where clarity and enthusiasm matter.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/7w5JDCUNbeKrn4ySFgfu/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoid05GMkYzV09nSVhQTWxzc3l6Y2oubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  7922,
+                       "usage_character_count_1y":  1763864552,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "zgqefOY5FPQ3bB7OZTVR",
+                       "name":  "Niraj- Romantic and Smooth",
+                       "description":  " Niraj is the pen name of a veteran Indian actor. The base and variations of this voice make it great for narrative work, documentaries, and social media.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/zgqefOY5FPQ3bB7OZTVR/MVPA1HijF9jaZEyDPUw2.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  1938451,
+                       "usage_character_count_1y":  1097980034,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "1zUSi8LeHs9M2mV8X6YS",
+                       "name":  "Priyanka Sogam - Soft and Romantic",
+                       "description":  "Priyanka Sogam â Romantic, Polished \u0026 Calm - A soft, velvety voice dipped in elegance â warm, slow-paced, and effortlessly alluring.\n\nPerfect for romantic audiobooks, luxury brand campaigns, Replika-style apps, premium customer care, and emotionally intelligent AI.\nShe brings a graceful, heartfelt presence to every line â building deep connection with every word. And yes, sheâs Monika Sogamâs sister, whose voices are among the best-performing on ElevenLabs, so excellence clearly runs in the family.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/1zUSi8LeHs9M2mV8X6YS/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiaW4wYmZQZklnOTBMbG4xRmZZT0QubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  83108,
+                       "usage_character_count_1y":  168234057,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "4BoDaQ6aygOP6fpsUmJe",
+                       "name":  "Raghav - Calm, Confident and Engaging",
+                       "description":  "Raghav - Calm \u0026 Confident Storyteller - A steady and composed voice crafted for storytelling, explainers, and thoughtful narration.\n\nRaghavâs tone blends calm authority with warmth, making him perfect for delivering long-form content. Whether itâs a brand story, podcast intro, or documentary narration, his voice keeps listeners engaged and at ease.\n\nIdeal for YouTube explainers, audiobooks, training videos, and informative reels across platforms like Spotify, Audible, and LinkedIn.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/4BoDaQ6aygOP6fpsUmJe/N8hoKK2hY8Cxaf5RTeSl.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  115816,
+                       "usage_character_count_1y":  294006172,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "3gsg3cxXyFLcGIfNbM6C",
+                       "name":  "Raju - Authentic and Relatable",
+                       "description":  "Raju - Relatable Indian Voice - \r\nThis voice has the familiar warmth and approachability of a regular Indian speaker, yet it carries a professionalism that makes it versatile for a range of applications. It\u0027s clear and articulate enough to engage audiences on social media, provide guidance through customer care bots, and serve in various other communication roles. Its authentic Indian tone adds a layer of relatability without compromising on clarity or effectiveness, making it an excellent choice for connecting with audiences.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/3gsg3cxXyFLcGIfNbM6C/rGzUET9JqnvDlrj9gNqJ.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  60008,
+                       "usage_character_count_1y":  604052570,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "zT03pEAEi0VHKciJODfn",
+                       "name":  "Raju - Clear, Natural and Warm",
+                       "description":  "Raju - Relatable Hindi Voice - This voice has the familiar warmth and approachability of a regular Indian speaker, yet it carries a professionalism that makes it versatile for a range of applications. It\u0027s clear and articulate enough to engage audiences on social media, provide guidance through customer care bots, and serve in various other communication roles. Its authentic Indian tone adds a layer of relatability without compromising on clarity or effectiveness, making it an excellent choice for connecting with audiences.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/custom/voices/zT03pEAEi0VHKciJODfn/E1SwTL1qIKPkIxyZQQfk.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  626327,
+                       "usage_character_count_1y":  3078058256,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "pzxut4zZz4GImZNlqQ3H",
+                       "name":  "Raju - Natural Conversationalist",
+                       "description":  "Raju - Human-like Customer Care Voice - Raju\u0027s voice is already loved by more than 100k users and has been widely used for various conversational use cases. Therefore, we decided to record Raju again and create a dataset specifically tailored for customer care, sales agents, and similar applications. So, if you need a voice for chatbots or any other AI agent where a natural and conversational tone is essential, Raju\u0027s voice is the perfect choice for you.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/pzxut4zZz4GImZNlqQ3H/Y0PTfRDmoQFoM2tcjC12.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  48827,
+                       "usage_character_count_1y":  715252903,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "eyVoIoi3vo6sJoHOKgAc",
+                       "name":  "Raju - Warm and Professional",
+                       "description":  "Raju - Top Customer Care Voice - Raju\u0027s voice is already loved by more than 100k users and has been widely used for various conversational use cases. Therefore, we decided to record Raju again and create a dataset specifically tailored for customer care, sales agents, and similar applications. So, if you need a voice for chatbots or any other AI agent where a natural and conversational tone is essential, Raju\u0027s voice is the perfect choice for you.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/eyVoIoi3vo6sJoHOKgAc/C9WIXpkv2mwy0PwQX3Z2.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  75120,
+                       "usage_character_count_1y":  1279410153,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "nZ5WsS2E2UAALki8m2V6",
+                       "name":  "Ranbir - Intense and Cinematic",
+                       "description":  "Ranbir M â Deep Thriller Voice for Podcasts \u0026 YouTube - An immersive voice made for gripping thrillers, crime series, and suspense-driven storytelling.\n\nRanbir Mâs tone is intense and cinematic, drawing listeners into mysterious plots and dramatic moments with ease. Whether it\u0027s a spine-tingling podcast or a high-stakes YouTube episode, his voice builds tension while keeping audiences hooked.\n\nPerfect for thriller podcasts, YouTube crime stories, horror narration, and suspense series across platforms like Spotify and Audible.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/nZ5WsS2E2UAALki8m2V6/veb29hvZg9oU6dNOjR1b.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  155463,
+                       "usage_character_count_1y":  221771019,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "2iAXJEMO2o0PqUHzvZwQ",
+                       "name":  "Ranbir - Neutral and Clean",
+                       "description":  "Ranbir M - Customer Support (Neutral Accent) - Ranbir is a voice on ElevenLabs that is loved by thousands. Since many people prefer a mature, neutral accent for customer support, we decided to record his voice using that data as well. Please use this voice for professional customer support services, voice/audio bots, or any project requiring a calm and trustworthy conversational tone.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/2iAXJEMO2o0PqUHzvZwQ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiUkJiMWs3bzVCdjlmdmE3MmRtR0EubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  8145,
+                       "usage_character_count_1y":  1328676315,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "9PvnT6XRzlljoaDG6Knu",
+                       "name":  "Ranbir - Warm and Friendly",
+                       "description":  "Ranbir M - Warm \u0026 Friendly - Middle-aged man with a neutral Indian accent. A voice that is deep, soothing, friendly, fun, and explanatory. Suitable for audiobooks, documentaries, podcasts, chatbots, social media, e-learning, dubs, promotions, etc.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/9PvnT6XRzlljoaDG6Knu/ArSYCYa2rKv1tzCta30v.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  19564,
+                       "usage_character_count_1y":  702153064,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "d0grukerEzs069eKIauC",
+                       "name":  "Ranga - Powerful Brand Hindi Narrator",
+                       "description":  "Ranga delivers a deep, authoritative, and energetic tone that commands attention from the first word. His strong vocal presence makes content feel impactful, confident, and driven while maintaining clarity and control. Ideal for promos, brand videos, motivational content, powerful storytelling, commentary, and high-energy narration. Well-suited for media, advertising, digital content, and projects that require a bold and commanding voice presence.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/d0grukerEzs069eKIauC/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiWHo4Y0RZMDNHSkFiWkh4YzRRVlgubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  357986,
+                       "usage_character_count_1y":  241214106,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "oHxj8sUpVpscBK7Mmroq",
+                       "name":  "Raunak M â Viral \u0026 Relatable Reel Voice",
+                       "description":  "Raunak M brings energetic, funny, and highly relatable Hinglish delivery built for viral social media content. His refreshing, expressive tone feels natural and conversational, making hooks land fast and punchlines feel effortless. Designed for reels, meme-style narration, trending challenges, lifestyle content, and influencer-led storytelling. Performs especially well on Social Media platforms and creator-driven digital campaigns.\n",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/oHxj8sUpVpscBK7Mmroq/Y474wCiaQj4RNCussiSf.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  69637,
+                       "usage_character_count_1y":  262605842,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "UrB5rVw5j9MDZWDZJtOJ",
+                       "name":  "Reyanshi - Supportive and Approachable",
+                       "description":  "Reyanshi â Tier 2 \u0026 Tier 3 Friendly Voice for Customer Care \u0026 Chatbots - Authentic young Indian female voices, perfectly tuned for Tier 2 \u0026 Tier 3 city audiences.\n\nHer tone evokes the vibe of a helpful, approachable girl-next-door.\n\nThis voice is ideal for Hindi, Hinglish, and regional-flavored conversations â especially across customer care bots, support IVRs, and e-commerce assistants targeting Bharat users. Reyanshiâs style delivers high relatability in apps used by millions in e-commerce and fintech platforms.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/UrB5rVw5j9MDZWDZJtOJ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiTnVxRXk4cHpUU0VSMVQzMW14TnEubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  14860,
+                       "usage_character_count_1y":  279463242,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "IvLWq57RKibBrqZGpQrC",
+                       "name":  "Rian - Energetic Hindi Conversational",
+                       "description":  "Energetic, warm, and genuinely inviting â Rian brings a lively Hindi conversational energy that makes every interaction feel like talking to someone who is actually glad you called. His engaging, natural delivery works effortlessly across companion apps, casual AI chat, customer care flows, and everyday dialogue where an upbeat, friendly presence keeps conversations going. Perfect for Hindi conversational platforms, companion apps, and consumer brands across Tier 1 and Tier 2 India.",
+                       "accent":  "",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/IvLWq57RKibBrqZGpQrC/RjJQ0iNaxcUwLSIh6tTp.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  400193,
+                       "usage_character_count_1y":  200562892,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi",
+                                       "workspace:professional"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "SAz9YHcvj6GT2YYXdXww",
+                       "name":  "River - Relaxed, Neutral, Informative",
+                       "description":  "A relaxed, neutral voice ready for narrations or conversational projects.",
+                       "accent":  "american",
+                       "gender":  "neutral",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "mActWQg9kibLro6Z2ouY",
+                       "name":  "Riya Rao - Clear and Crisp",
+                       "description":  "Riya Rao - Hindi Conversational Voice - Riya is the pen name of one of the most professional voice-over artists you will ever hear on ElevenLabs. Her voice has already been a part of major conversational bots in the past. Use it for all your professional and conversational needs, such as social media, documentaries, audiobooks, corporate videos, and so on.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/mActWQg9kibLro6Z2ouY/5dGn7iyuPQmNc8t5dLpH.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  188100,
+                       "usage_character_count_1y":  472048798,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "vYENaCJHl4vFKNDYPr8y",
+                       "name":  "Riya Rao - Confident and Clear",
+                       "description":  "Riya Rao -  Professional Voice - Riya is the pen name of one of the most professional voice-over artists you will ever hear on ElevenLabs. Her voice has already been a part of major conversational bots in the past. Use it for all your professional and conversational needs, such as social media, documentaries, audiobooks,\r\ncorporate videos, and so on.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/vYENaCJHl4vFKNDYPr8y/4hliaQMin59yWW7TJTqB.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  40515,
+                       "usage_character_count_1y":  492293790,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "wlmwDR77ptH6bKHZui0l",
+                       "name":  "Riya Rao - Famous and Professional",
+                       "description":  "Riya Rao - Famous Customer Care Voice - Riya K. Rao is the most famous Indian English and Hindi AI voice. Even on ElevenLabs, it has generated over 150 million characters. Now to use it more effectively for automated use cases like customer care, AI calling, and AI chatbots, we decided to record with her exactly using those scripts. You will find it useful in these cases, as this voice will be modulated accordingly with a professional tone in mind.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/wlmwDR77ptH6bKHZui0l/vDP823KvNyKcS3acBpIF.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  26214,
+                       "usage_character_count_1y":  479762624,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "CwhRBWXzGAHq8TQ4Fs17",
+                       "name":  "Roger - Laid-Back, Casual, Resonant",
+                       "description":  "Easy going and perfect for casual conversations.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "tTZ0TVc9Q1bbWngiduLK",
+                       "name":  "Rudra - Dark, Suspensful and Mysterious",
+                       "description":  "Rudra - Suspense and Horror Storyteller - Rudra possesses a captivating English voice, perfect for weaving tales of suspense and intrigue. With a deep, measured tone and subtle intensity, his narration builds tension effortlessly, drawing listeners into the heart of the story. Every word carries a hint of mystery, keeping audiences on the edge of their seats and hanging on to every twist and turn.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/tTZ0TVc9Q1bbWngiduLK/TSrtqTrzkLhCA4DeYdf5.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  199773,
+                       "usage_character_count_1y":  416164930,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ypnkIsDASPgHZuanrF0q",
+                       "name":  "Rudra - Warm, Calm and Natural",
+                       "description":  "Rudra - Strong \u0026 Engaging Voice - Rudra is a professional voice artist with a deep, commanding voice that exudes authenticity and trust. His tone strikes a perfect balance between authority and warmth, captivating listeners and leaving a lasting impression. Whether narrating stories, delivering powerful messages, or creating engaging voiceovers, Rudraâs voice has a natural ability to connect with audiences, making them eager to hear more.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/ypnkIsDASPgHZuanrF0q/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiWXFmZjhJeHRLMkpvY2NESmxsUnkubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  128590,
+                       "usage_character_count_1y":  169273540,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "siw1N9V8LmYeEWKyWBxv",
+                       "name":  "Ruhaan - Clear, Loud and Cheerful",
+                       "description":  "Ruhaan - Clean narration voice - Ruhaan is a pen name of an Indian artist who has spent decades in front of the camera. You will see that experience in his voice, which is beautiful for creating ads, social media content, audiobooks, and also for having engaging conversations.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/siw1N9V8LmYeEWKyWBxv/cBmcFAhsEDTnsoNcP2Vr.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  67704,
+                       "usage_character_count_1y":  2107445207,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "LWFgMHXb8m0uANBUpzlq",
+                       "name":  "Saavi - Firm, Polite and Professional",
+                       "description":  "Saavi - Recovery \u0026 Payment Reminder Voice Agent Banks, NBFCs \u0026 Lending Firms - A clear, firm, and polite female voice designed for recovery, payment reminders, and follow-ups. \n\nSaaviâs voice is already trusted by many banks for their customer care operations, and this profile is specially trained to handle sensitive financial communications effectively.\n\nPerfect for banking and NBFC recovery calls, loan follow-up reminders, debt management voicebots, and payment collection IVR systems on platforms like Amazon Connect, Genesys, and Zoho Voice.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/LWFgMHXb8m0uANBUpzlq/zBgVoERECXLYzFH17b7F.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  19966,
+                       "usage_character_count_1y":  938933430,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "DpnM70iDHNHZ0Mguv6GJ",
+                       "name":  "Saavi - Friendly, Empathetic and Helpful",
+                       "description":  "Saavi â Natural Hindi Customer Care Agent - A friendly, empathetic voice designed for seamless, natural customer service in Hindi.\n\nWhether it\u0027s addressing inquiries, offering assistance, or resolving issues, her voice creates a comfortable and positive experience. Perfect for IVR systems, chatbots, and virtual assistants, Saavi offers reliable, friendly customer support in Hindi for platforms like mobile apps, websites, and customer service platforms. ",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/DpnM70iDHNHZ0Mguv6GJ/ciYffWIahrSI4Pwpgu5H.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  26180,
+                       "usage_character_count_1y":  1063699474,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "H8bdWZHK2OgZwTN7ponr",
+                       "name":  "Saavi - Warm Financial Advisor",
+                       "description":  "Saavi - Warm Finance Customer Care - Voice for customer support, with a special focus on finance and insurance services.\n\nSaavi\u0027s calm, reassuring tone builds trust instantlyâperfect for handling sensitive queries, guiding users through complex steps, and delivering information with clarity. Her warm and composed delivery enhances IVR systems, chatbots, and virtual agents across banking apps, insurance platforms, and financial service helplines.  Also well-suited for support content on WhatsApp, YouTube, and customer portals. ",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/H8bdWZHK2OgZwTN7ponr/dwR2We3hJyVt8DhfFEep.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  9018,
+                       "usage_character_count_1y":  1902452717,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "81xnrLNObbKDEs179emP",
+                       "name":  "Saavi - Warm, Helpful and Professional",
+                       "description":  "Saavi - Warm Automobile Customer Care Agent for Dealership \u0026 Auto Brands - Saavi brings a calm, warm, \u0026 attentive toneâperfect for automobile customer service journeys. \n\nSaavi is already one of the most recognized voices in the customer care voice AI space, with her profiles collectively generating close to a billion characters on ElevenLabs. This version is crafted specifically for automobile brands, dealership support bots, and platforms focused on after-sales experiences.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/81xnrLNObbKDEs179emP/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiYzFQbnoxNE8yUGVTUDI3WDg1U2IubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  4049,
+                       "usage_character_count_1y":  498665598,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "tKZQTIqwDrPzLv6MrPxF",
+                       "name":  "Sana - Feminine Audiobook Narrator",
+                       "description":  "Sana - This voice, with its young Indian female tone, is great for social media, audiobooks, and AI customer support.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/tKZQTIqwDrPzLv6MrPxF/OqxYamtdRapLaSmYnWK0.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  9337,
+                       "usage_character_count_1y":  669926536,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "EXAVITQu4vr4xnSDxMaL",
+                       "name":  "Sarah - Mature, Reassuring, Confident",
+                       "description":  "Young adult woman with a confident and warm, mature quality and a reassuring, professional tone.",
+                       "accent":  "american",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/01a3e33c-6e99-4ee7-8543-ff2216a32186.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "LrnwgcdTLxc99sutUxGU",
+                       "name":  "Shiv - Mature, Deep and Professional",
+                       "description":  "Shiv - Mature Deep Voice - Shiv is the pen name of an Indian professional with decades of experience. His voice carries that weight and will be useful in areas where authority and engagement are needed, such as social media, audiobooks, and ads.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "old",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/LrnwgcdTLxc99sutUxGU/LxCoMLmzFMBBbcEZyGRe.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  5791,
+                       "usage_character_count_1y":  257458063,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ZuwDzHyjerDGOsNEDssb",
+                       "name":  "Shyam - Strong and Authoritative",
+                       "description":  "Shyam â Strong Hindi Voice for Podcasts \u0026 YouTube Content - Shyam delivers a confident, high-energy narration voice with clear modulation.\n\nThis voice suits fast-paced content across Social media and podcasts, especially for dramatic stories, bold voice-overs, and Hindi explainers. Whether itâs storytelling, regional news-style content, or motivational segments, Shyamâs narration lands with both power and polish.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/ZuwDzHyjerDGOsNEDssb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiclc5UnlkUlE2NlhtMmxhRkxVT0EubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  31521,
+                       "usage_character_count_1y":  449033350,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "KYiVPerWcenyBTIvWbfY",
+                       "name":  "Sia - Friendly, Helpful and Reassuring",
+                       "description":  "Sia - Friendly Customer Care Agent - A warm, approachable voice built for easy, human-like customer interactions.\r\n\r\nSiaâs cheerful and supportive tone makes users feel heard and understood. Whether assisting on mobile apps, IVR systems, chatbots, or web platforms, her voice brings calm, clarity, and comfort to every conversation. Ideal for ecommerce, fintech, healthcare, and consumer tech support, Sia ensures every query feels like itâs handled by a helpful human.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/KYiVPerWcenyBTIvWbfY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiQlJXeGFrM1JPWFNXclBtRVpMNHMubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  19594,
+                       "usage_character_count_1y":  6731367366,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "TRnaQb7q41oL7sV0w6Bu",
+                       "name":  "Simran - Bright, Expressive and Friendly",
+                       "description":  "Simran â Bright, Fun, and Friendly BFF Voice for Gen Z Gossip - A bubbly, expressive voice that sounds just like your favorite friend spilling tea over texts.\n\nSimranâs tone is light, fast-paced, and full of playful energyâperfect for Gen Z-focused content, AI BFFs, social media storytelling, and voice-based gossip apps. Whether it\u0027s for YouTube shorts, Instagram reels, Snapchat series, or interactive voice chats, Simran brings that ultra-relatable, âgirl-next-doorâ charm that hooks listeners instantly.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/TRnaQb7q41oL7sV0w6Bu/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiQXZLOEc5clFEeTVVMllNaFYwSHEubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  104868,
+                       "usage_character_count_1y":  391153043,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "kFCe7jyOkkYKzOgpe2u0",
+                       "name":  "Simran - Friendly Personal Assistant ",
+                       "description":  "Simran delivers a clear, friendly, and reliable voice built for personal assistant experiences. Ideal for virtual assistants, smart devices, and apps similar to Alexa, Google Assistant, and Siri. She can answer phone calls on your behalf, handle IVR interactions, reminders, navigation, onboarding, FAQs, productivity tools, and smart home systems. Her calm, conversational tone suits consumer apps, SaaS platforms, AI companions, and customer-facing assistants.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/kFCe7jyOkkYKzOgpe2u0/diLaJ70BOWOUXPkqT4kW.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  8151,
+                       "usage_character_count_1y":  803809137,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "9w21nMuk8CWXIME31V1S",
+                       "name":  "Simran - Young, Friendly and calm",
+                       "description":  "Simran â Young Support Bot Voice for Banks \u0026 NBFCs - Simranâs voice is warm, youthful, and naturally clearâideal for support interactions that require both friendliness and reliability.\n\n\n\nSimran is the real-life partner of Viraj, another top voice on ElevenLabs with over a billion characters generated, both come from a customer support background.\n\nThis voice is optimized for use across private banks like HDFC, ICICI, IDFC etc as well as prominent NBFCs such as Bajaj Finance, Muthoot Finance, HDB Financial, Aditya Birla Finance, and Tata Capital.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/9w21nMuk8CWXIME31V1S/9BloRka1jfhMYbjZl65e.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  6438,
+                       "usage_character_count_1y":  2520445908,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "trxRCYtDC6qFREKq6Ek2",
+                       "name":  "Sourabh - Friendly and Smooth",
+                       "description":  "Sourabh - warm Hindi narrator - A calm and clear Hindi narration voice with a warm tone, ideal for audiobooks, documentaries, and storytelling.\n",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/user/gR2W5AgeNEWCCtNZ53mKpVNgMvW2/voices/trxRCYtDC6qFREKq6Ek2/txPZrylNe89AAe7r9GqV.mp3",
+                       "public_owner_id":  "f614fbd3a5bcee43da2c9730faa94f1af13a97805031e749720787f2f66b5f86",
+                       "featured":  false,
+                       "cloned_by_count":  89643,
+                       "usage_character_count_1y":  159140994,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "qDuRKMlYmrm8trt5QyBn",
+                       "name":  "Taksh - Calm, Serious and Smooth",
+                       "description":  "Taksh - Powerful \u0026 Commanding Voice - Ideal voice for divine storytelling, historical epics, and philosophical reflections, this voice carries a deep, commanding presenceârich in bass and authority, yet calm and deliberate. Perfect for epic narrations, mythology, and grand storytelling, it echoes wisdom and power. Every word feels profound, every sentence leaves an impact.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/qDuRKMlYmrm8trt5QyBn/6jXyGArrGdTZLHE5Z0x1.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  189130,
+                       "usage_character_count_1y":  339838283,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "P7vsEyTOpZ6YUTulin8m",
+                       "name":  "Tara - Conversational and Expressive",
+                       "description":  "Tara - Conversational Expressive Voice - Tara is a professional actress with extensive acting experience and great potential ahead. You will hear all those emotions in her voice. Give it a try, and I\u0027m sure you will love it.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/custom/voices/P7vsEyTOpZ6YUTulin8m/S37OM3vG5E7e33WFgs8r.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  38734,
+                       "usage_character_count_1y":  652017611,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "kiaJRdXJzloFWi6AtFBf",
+                       "name":  "Tarini - Calm and Measured",
+                       "description":  "Tarini -  Calm \u0026 Assertive Recovery Agent - A firm yet composed voice built for collections, follow-ups, and recovery-based customer interactions.\r\n\r\nTariniâs tone is polite, professional, and assertiveâideal for debt recovery bots, collections IVRs, telecalling agents, and finance customer support workflows. Her voice balances clarity with authority, helping maintain trust while driving action. Perfect for lending apps, insurance follow-ups, loan service platforms, and BFSI-based customer care systems.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/kiaJRdXJzloFWi6AtFBf/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiRUQwbGdiT2YzaERueUpPaldlY2cubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  13462,
+                       "usage_character_count_1y":  2025808487,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "aAzJB4KWAzCZrJSxdt5x",
+                       "name":  "Tarini - Expressive and Cheerful",
+                       "description":  "Tarini - Expressive \u0026 Cheerful Narrator - Tarini, the pen name of a talented script Supervisor and director from Mumbai, is a multi-talented individual. Her abilities shine through her voice, showcasing remarkable modulation, variation, and loving energy. Give it a try and you will love it. ",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/aAzJB4KWAzCZrJSxdt5x/ula0Zk96P19Z6vhzpST0.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  6597,
+                       "usage_character_count_1y":  165874759,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "FFmp1h1BMl0iVHA0JxrI",
+                       "name":  "Tarini - Soft, Cheerful and Expressive",
+                       "description":  "Tarini - Expressive \u0026 Cheerful Hindi Narrator - Tarini, the pen name of a talented script Supervisor and director from Mumbai, is a multi-talented individual. Her abilities shine through her voice, showcasing remarkable modulation, variation, and loving energy. Give it a try and you will love it. ",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/FFmp1h1BMl0iVHA0JxrI/dYlEDbuqaOMdBCZwRkPZ.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  105227,
+                       "usage_character_count_1y":  268824017,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "OUBnvvuqEKdDWtapoJFn",
+                       "name":  "Tia Mirza - Crisp and Commanding",
+                       "description":  "Tia Mirza - Tough Recovery \u0026 Collections Specialist - A crisp, commanding voice built for tough customer interactions, recovery calls, and straight-talking service bots.\n\nTia Mirzaâs tone is firm, quick, and assertively clearâperfect for payment recovery agents, strict IVRs, BFSI collections, and no-frills customer care workflows. Whether itâs a follow-up, reminder, or escalation, Tia cuts through the noise and gets the job done. Ideal for fintech apps, debt collection systems, insurance support, and serious-service voice agents.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/OUBnvvuqEKdDWtapoJFn/dWE1zZlUmhuFMGc6adVz.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  14814,
+                       "usage_character_count_1y":  263172551,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "MwUMLXurEzSN7bIfIdXF",
+                       "name":  "Tripti - Calm and Experienced",
+                       "description":  "Customer Care Tripti â Calm, Experienced Voice for English AI Bots \u0026 Agents - A warm, professional voice designed for AI agents, IVRs, and customer support in English-first user journeys.\n\nTriptiâs tone blends clarity with care â ideal for guiding users smoothly through app support, banking queries, and service flows. Her delivery feels experienced, patient, and natural, helping brands sound both helpful and human.\n\nPerfect for voice assistants, app-based bots, enterprise IVRs, and English customer care flows across platforms.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/MwUMLXurEzSN7bIfIdXF/62r1LCi8DlUpfWpOlSMD.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  16208,
+                       "usage_character_count_1y":  406850395,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "6V9kz8WiEZCuxIP4zw8F",
+                       "name":  "Vidya - Serious, Steady and Urgent",
+                       "description":  "Vidya â Loan Recovery Voice for Banks, NBFCs \u0026 Fintech Platforms - A firm yet courteous voice tailored for recovery, collections, and financial communication.\n\nVidya speaks with clarity, authority, and empathy â striking the perfect balance between professionalism and approachability.\n\nIdeal for banking and NBFC collections calls, payment reminders, loan recovery voicebots, and financial service IVR systems on platforms like Amazon Connect, Genesys, and Zoho Voice.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/6V9kz8WiEZCuxIP4zw8F/0U60ueFugs6p7Ltx1MM9.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  28074,
+                       "usage_character_count_1y":  1774804377,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "Ock0AL5DBkvTUDePt4Hm",
+                       "name":  "Viraj - Bold \u0026 Commanding Banking Agent",
+                       "description":  "Viraj - Bold \u0026 Commanding Recovery Agent for Banks \u0026 NBFCs - This voice is designed for urgency, escalation, and situations where polite reminders no longer work. \n\nViraj delivers a blunt, firm, and emotionally detached toneâbuilt for high-pressure recovery situations. As one of ElevenLabsâ most popular voices, his other profiles have crossed over 1 billion characters.\n\nThis version is fine-tuned for final-stage EMI reminders, debt recovery calls, and escalation flows suitable for platforms like Bajaj Finserv, KreditBee, Paytm, LazyPay etc.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/Ock0AL5DBkvTUDePt4Hm/ff4Y7yp5eBWi0BtXZ2hL.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  31640,
+                       "usage_character_count_1y":  1186645264,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "bajNon13EdhNMndG3z05",
+                       "name":  "Viraj - Energetic and Confident",
+                       "description":  "Viraj â Clear, Energetic \u0026 Confident Male Voice for Ads, Reels, Explainer Videos, and Audiobooks - A sharp, versatile male voice made for attention-grabbing ads, reels, explainers, and audiobooks. Virajâs delivery is crisp, expressive, and confidentâperfect for brand campaigns, YouTube explainers, Instagram Reels, audiobooks, and app promos. His energetic tone keeps listeners engaged while maintaining clarity and trust, making him a great fit for social media content, product videos, and voice-driven storytelling across platforms like YouTube, Spotify, Amazon Audible, and more.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/bajNon13EdhNMndG3z05/Fq8QyxcYz9mav0CoR4AZ.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  64919,
+                       "usage_character_count_1y":  355415621,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "FmBhnvP58BK0vz65OOj7",
+                       "name":  "Viraj - Energetic, Clear Narrator",
+                       "description":  "Viraj - Energetic \u0026 Clear Hindi Narrator - With his youthful energy and strong command of language, Viraj is an ideal choice for a wide range of applications, including social media content, educational videos, corporate presentations, and more.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/FmBhnvP58BK0vz65OOj7/MZyEAo3FyS1szwZJjoxw.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  409821,
+                       "usage_character_count_1y":  589923133,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "K24eC7JpUgk8zMtQYrpV",
+                       "name":  "Viraj - Intimidating and Suspenseful",
+                       "description":  "Viraj â Suspense Stories ka Badshah - Viraj, a powerhouse suspense narrator with razor-sharp timing, gripping pauses and a signature edge that keeps listeners hooked. Virajâs intense, dramatic and engaging style makes him perfect for crime-suspense stories, horror stories, twist-ending narratives and thrilling audio dramas. Ideal for audio platforms and mystery reels.\n",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/K24eC7JpUgk8zMtQYrpV/wpGpZPuCKV3uB44llvCU.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  159412,
+                       "usage_character_count_1y":  181710166,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "P1bg08DkjqiVEzOn76yG",
+                       "name":  "Viraj - Rich and Soft",
+                       "description":  "Viraj - Suspenseful and Engaging Narrator - Virajâs voice brings depth and intrigue, perfect for suspense and horror storytelling. With a slow, deliberate pace and a rich, breathy tone, his delivery creates a haunting, immersive atmosphere. Ideal for chilling narratives, his booming presence draws listeners into a world of mystery and tension.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/P1bg08DkjqiVEzOn76yG/DaYSpKsNY2TtOHLWud29.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  516280,
+                       "usage_character_count_1y":  690116970,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "3AMU7jXQuQa3oRvRqUmb",
+                       "name":  "Viraj - Rich, Confident and Expressive",
+                       "description":  "Viraj â Expressive \u0026 Natural Storyteller for Longform Audiobooks - Viraj delivers a richly modulated and emotionally expressive toneâideal for audiobooks and storytelling with vivid dialogue. His voice naturally shifts between characters, making it perfect for fiction, romance, thrillers, and mythology.\n\nThis profile is specially tuned for dialogue-heavy narration. With over 1.5 billion characters across his other profiles, Viraj is already one of ElevenLabsâ most celebrated voices.\n\nGreat fit for Audible, PocketFM, Spotify, KukuFM, \u0026 other longform platforms.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/3AMU7jXQuQa3oRvRqUmb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiSm9OdW03alhvNTNydjV1N1VQN2YubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  392591,
+                       "usage_character_count_1y":  510494332,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "1U02n4nD6AdIZ9CjF053",
+                       "name":  "Viraj - Smooth and Gentle",
+                       "description":  "Viraj - Smooth and Gentle Narrator - Calm, deep, and resonant, this voice exudes the serene wisdom of a yoga guru, perfect for meditation and mindfulness content. Its smooth and expressive delivery creates a sense of tranquility and connection, making it equally captivating for romantic storytelling. Ideal for audiobooks, guided meditations, and emotional narratives, this voice is a harmonious blend of warmth and depth.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/1U02n4nD6AdIZ9CjF053/Db0bXQauCCjtE0uaoDAk.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  63428,
+                       "usage_character_count_1y":  1357386524,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian",
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "iWNf11sz1GrUE4ppxTOL",
+                       "name":  "Viraj - Warm, Energetic and Lively",
+                       "description":  "Viraj - Warm \u0026 Energetic Customer Care agent  - A friendly, upbeat voice designed to make every customer feel heard and reassured.\n\nVirajâs tone blends energy with empathyâideal for dynamic support bots, voice-based helpdesk systems, and human-like AI calling. His clear delivery and approachability make him a great fit for industries like telecom, fintech, retail, and app-based services. Used across platforms like AI calling apps, customer care hotlines, and WhatsApp voice assistants, Viraj ensures a smooth, positive support experience.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/iWNf11sz1GrUE4ppxTOL/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MTRkOTRlOTI0MWM0OGU4Yjc5MDUzNzU3MjljNDM2ZiIsImZpbGVuYW1lIjoiWmpoSGM4RVRtS0hzaDFJd0tZT1cubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  273673,
+                       "usage_character_count_1y":  1083633255,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "bIHbv24MWmeRgasZH58o",
+                       "name":  "Will - Relaxed Optimist",
+                       "description":  "Conversational and laid back.",
+                       "accent":  "american",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "premade",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/premade/voices/bIHbv24MWmeRgasZH58o/8caf8f3d-ad29-4980-af41-53f20c72d7a4.mp3",
+                       "public_owner_id":  null,
+                       "featured":  null,
+                       "cloned_by_count":  null,
+                       "usage_character_count_1y":  null,
+                       "rate":  null,
+                       "sources":  [
+                                       "workspace:premade"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "sXXU5CoXEMsIqocfPUh2",
+                       "name":  "Yash - Warm and Friendly",
+                       "description":  "Yash M - Warm \u0026 Friendly - This voice, brimming with energy, makes it ideal for engaging social media presence, ads, chatbots, audiobooks, podcasts, etc.",
+                       "accent":  "indian",
+                       "gender":  "male",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/custom/voices/sXXU5CoXEMsIqocfPUh2/W0exs7yGL0OayYgDdJH7.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  8631,
+                       "usage_character_count_1y":  214509272,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "7eRpHPIAaX3Z8JIv8xfg",
+                       "name":  "Yatin - Rich, Deep and Suspenseful",
+                       "description":  "Yatin - Suspenseful and Dramatic Voice - Yatin is a successful actor and voiceover artist who has done dubbing for various short films, movies, and more. His voice carries a suspenseful quality that keeps audiences hooked until the end, making it perfect for thrillers, crime documentaries, and mystery narrations.",
+                       "accent":  "standard",
+                       "gender":  "male",
+                       "language":  "hi",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/7eRpHPIAaX3Z8JIv8xfg/CTWHjfHE1wP1qG4catp5.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  36712,
+                       "usage_character_count_1y":  282180049,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "MmQVkVZnQ0dUbfWzcW6f",
+                       "name":  "Zara - Elegant and Smooth",
+                       "description":  "Zara â Premium Customer Care Voice - A smooth, elegant voice crafted for high-end customer experiences and premium brand support.\n\nZaraâs poised and polished tone brings a sense of sophistication to every interactionâideal for luxury retail, high-end services, concierge platforms, and exclusive member apps. Her delivery is calm, courteous, and refined, making customers feel valued and understood. Perfect for use in IVR systems, premium ecommerce, hospitality, and VIP client support.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/MmQVkVZnQ0dUbfWzcW6f/AKloPMlj2HyuYnASxjnc.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  5247,
+                       "usage_character_count_1y":  697806449,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "ADd2WEtjmwokqUr0Y5Ad",
+                       "name":  "Zara - Soft and Serene",
+                       "description":  "Zara - Soft and Serene Indian Voice - Zara, the pen name of a passionate singer and voice-over artist, brings warmth and emotion to every project. Her sweet and captivating voice has the power to truly engage and move your audience. Whether you need narration that connects, social media content that stands out, or a voice for intimate conversations, Zaraâs voice will elevate your message and leave a lasting impression.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/514d94e9241c48e8b7905375729c436f/voices/ADd2WEtjmwokqUr0Y5Ad/lfI5PpfdGGtnAfpi0Ol7.mp3",
+                       "public_owner_id":  "f87f057c2250691953ac2e6227859706764bd08c88a055a18c74261957885a51",
+                       "featured":  false,
+                       "cloned_by_count":  11214,
+                       "usage_character_count_1y":  344628200,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "OtEfb2LVzIE45wdYe54M",
+                       "name":  "Zara - Soft, Professional and Gentle",
+                       "description":  "Zara â Soft \u0026 Sweet Husky Voice for Finance and banking Services - Zaraâs voice blends husky softness with gentle politeness, making her an ideal choice for customer service in banking, insurance, and NBFC sectors. Her naturally calm tone instills trust and ensures a smooth, non-intimidating experienceâperfect for inbound queries, verification calls, and sensitive customer interactions. She has been fine-tuned for BFSI use cases and can be seamlessly integrated into platforms like IVR systems, WhatsApp bots, and voice-enabled mobile apps.\n",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/OtEfb2LVzIE45wdYe54M/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiNXlTUXNCQ1BCcTFLa0dCdm1HTGgubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  19111,
+                       "usage_character_count_1y":  7616643725,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "k2intd1ORm0YUH8etnXg",
+                       "name":  "Zara - Sweet, Admiring and Approachable",
+                       "description":  "Zara â Sweet \u0026 Friendly Companion - A light, cheerful voice that feels like a genuine friend by your side.\n\nZaraâs tone is bubbly, kind, and approachableâperfect for AI companions, interactive story apps, daily affirmations, and friendly chatbots. Whether itâs for Replika-style agents, emotional wellness platforms, or casual voice interactions on YouTube or voice-first mobile apps, Zara brings warmth, relatability, and a personal touch to every conversation.",
+                       "accent":  "standard",
+                       "gender":  "female",
+                       "language":  "hi",
+                       "age":  "young",
+                       "category":  "high_quality",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/k2intd1ORm0YUH8etnXg/QeP9hHh8Oym8pIhwoKmm.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  29292,
+                       "usage_character_count_1y":  316811787,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "language:hi"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "6VrKLjZfyBIk9AEmnZBI",
+                       "name":  "Zara â Efficient Recovery Agent",
+                       "description":  "Zara gets straight to the point â no warmth, no small talk, just clear, firm, professional recovery. Her cold, matter-of-fact delivery handles payment demands with direct efficiency, making every interaction feel purposeful and compliance-ready. Built for high-volume automated outbound collections â right-party contact, payment reminders, promise-to-pay capture, and debt follow-ups across banks, NBFCs, BNPL platforms, fintech lenders, and collection agencies.",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "young",
+                       "category":  "professional",
+                       "preview_url":  "https://api.us.elevenlabs.io/v1/voices/6VrKLjZfyBIk9AEmnZBI/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiYVEzRXhheHdYZVcwZ0VoRGpicnoubXAzIiwidGltZXN0YW1wIjoxNzgzNzg5MjAwMDAwMDAwfQ%3D%3D",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  1141,
+                       "usage_character_count_1y":  1037179644,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   },
+                   {
+                       "voice_id":  "FaqthkZu1EWxXxUFbAfb",
+                       "name":  "Ziina - Confident and Clear",
+                       "description":  "Ziina - Confident \u0026 Clear - Ideal for corporate narrations, financial updates, and premium brand storytelling. \r\n\r\nA clear, confident, and mature tone delivers authority with a gentle warmth. Perfect for business presentations, fintech insights, audiobooks, and IVR systems, ensuring credibility and engagement across platforms like YouTube, LinkedIn, and financial podcasts. ",
+                       "accent":  "indian",
+                       "gender":  "female",
+                       "language":  "en",
+                       "age":  "middle_aged",
+                       "category":  "professional",
+                       "preview_url":  "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/FaqthkZu1EWxXxUFbAfb/luBifPYAyEs6kBsygGc7.mp3",
+                       "public_owner_id":  "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+                       "featured":  false,
+                       "cloned_by_count":  71946,
+                       "usage_character_count_1y":  350976012,
+                       "rate":  1.0,
+                       "sources":  [
+                                       "accent:indian"
+                                   ]
+                   }
+               ]
+}

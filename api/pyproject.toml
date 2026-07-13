@@ -1,0 +1,5 @@
+[project]
+name = "zenvoice-api"
+version = "1.41.0"
+description = "Backend API for Zenvoice voice AI platform"
+requires-python = ">=3.13,<3.14"
